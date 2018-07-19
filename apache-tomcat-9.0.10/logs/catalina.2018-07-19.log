@@ -1,0 +1,139 @@
+19-Jul-2018 13:17:27.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+19-Jul-2018 13:17:27.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+19-Jul-2018 13:17:27.951 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+19-Jul-2018 13:17:27.952 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jul-2018 13:17:27.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-23-generic
+19-Jul-2018 13:17:27.953 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jul-2018 13:17:27.954 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+19-Jul-2018 13:17:27.955 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.1+10-Ubuntu-3ubuntu1
+19-Jul-2018 13:17:27.960 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2018 13:17:27.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10
+19-Jul-2018 13:17:27.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10
+19-Jul-2018 13:17:28.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jul-2018 13:17:28.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jul-2018 13:17:28.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jul-2018 13:17:28.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/conf/logging.properties
+19-Jul-2018 13:17:28.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2018 13:17:28.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2018 13:17:28.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2018 13:17:28.064 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2018 13:17:28.065 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2018 13:17:28.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10
+19-Jul-2018 13:17:28.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10
+19-Jul-2018 13:17:28.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/temp
+19-Jul-2018 13:17:28.076 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Jul-2018 13:17:29.094 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2018 13:17:29.856 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jul-2018 13:17:30.121 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2018 13:17:30.152 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jul-2018 13:17:30.164 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 16481 ms
+19-Jul-2018 13:17:31.034 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2018 13:17:31.041 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+19-Jul-2018 13:17:31.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/host-manager]
+19-Jul-2018 13:17:37.764 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [572] milliseconds.
+19-Jul-2018 13:17:38.091 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/host-manager] has finished in [6,794] ms
+19-Jul-2018 13:17:38.093 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/ROOT]
+19-Jul-2018 13:17:38.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/ROOT] has finished in [574] ms
+19-Jul-2018 13:17:38.669 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/manager]
+19-Jul-2018 13:17:39.063 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/manager] has finished in [393] ms
+19-Jul-2018 13:17:39.092 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jul-2018 13:17:39.209 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2018 13:17:39.265 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 9100 ms
+19-Jul-2018 13:53:54.029 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jul-2018 13:53:54.032 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2018 13:53:54.046 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2018 13:53:54.101 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2018 13:53:54.353 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2018 13:53:54.374 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2018 13:53:54.394 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2018 13:53:54.404 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2018 13:54:06.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+19-Jul-2018 13:54:06.292 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+19-Jul-2018 13:54:06.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+19-Jul-2018 13:54:06.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jul-2018 13:54:06.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-23-generic
+19-Jul-2018 13:54:06.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jul-2018 13:54:06.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+19-Jul-2018 13:54:06.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.1+10-Ubuntu-3ubuntu1
+19-Jul-2018 13:54:06.300 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2018 13:54:06.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10
+19-Jul-2018 13:54:06.301 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10
+19-Jul-2018 13:54:06.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jul-2018 13:54:06.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jul-2018 13:54:06.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jul-2018 13:54:06.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/conf/logging.properties
+19-Jul-2018 13:54:06.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2018 13:54:06.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2018 13:54:06.350 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2018 13:54:06.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2018 13:54:06.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2018 13:54:06.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10
+19-Jul-2018 13:54:06.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10
+19-Jul-2018 13:54:06.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/temp
+19-Jul-2018 13:54:06.366 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Jul-2018 13:54:06.722 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2018 13:54:06.859 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jul-2018 13:54:06.912 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2018 13:54:06.923 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jul-2018 13:54:06.930 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 6001 ms
+19-Jul-2018 13:54:07.650 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2018 13:54:07.655 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+19-Jul-2018 13:54:07.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/host-manager]
+19-Jul-2018 13:54:10.677 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [254] milliseconds.
+19-Jul-2018 13:54:10.823 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/host-manager] has finished in [3,050] ms
+19-Jul-2018 13:54:10.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/ROOT]
+19-Jul-2018 13:54:11.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/ROOT] has finished in [403] ms
+19-Jul-2018 13:54:11.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/manager]
+19-Jul-2018 13:54:11.484 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/manager] has finished in [251] ms
+19-Jul-2018 13:54:11.508 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jul-2018 13:54:11.603 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2018 13:54:11.638 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4707 ms
+19-Jul-2018 13:59:19.424 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Jul-2018 13:59:19.427 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+19-Jul-2018 13:59:19.471 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2018 13:59:19.526 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Jul-2018 13:59:19.742 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+19-Jul-2018 13:59:19.753 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2018 13:59:19.767 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+19-Jul-2018 13:59:19.797 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2018 13:59:31.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.10
+19-Jul-2018 13:59:31.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 20 2018 17:32:21 UTC
+19-Jul-2018 13:59:31.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.10.0
+19-Jul-2018 13:59:31.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+19-Jul-2018 13:59:31.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-23-generic
+19-Jul-2018 13:59:31.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Jul-2018 13:59:31.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+19-Jul-2018 13:59:31.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.1+10-Ubuntu-3ubuntu1
+19-Jul-2018 13:59:31.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Jul-2018 13:59:31.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10
+19-Jul-2018 13:59:31.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10
+19-Jul-2018 13:59:31.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Jul-2018 13:59:31.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Jul-2018 13:59:31.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Jul-2018 13:59:31.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/conf/logging.properties
+19-Jul-2018 13:59:31.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Jul-2018 13:59:31.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Jul-2018 13:59:31.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Jul-2018 13:59:31.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Jul-2018 13:59:31.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Jul-2018 13:59:31.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10
+19-Jul-2018 13:59:31.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10
+19-Jul-2018 13:59:31.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/temp
+19-Jul-2018 13:59:31.116 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+19-Jul-2018 13:59:31.373 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Jul-2018 13:59:31.560 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jul-2018 13:59:31.661 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2018 13:59:31.689 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Jul-2018 13:59:31.715 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 6482 ms
+19-Jul-2018 13:59:32.374 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Jul-2018 13:59:32.377 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.10
+19-Jul-2018 13:59:32.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/host-manager]
+19-Jul-2018 13:59:35.565 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [260] milliseconds.
+19-Jul-2018 13:59:35.791 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/host-manager] has finished in [3,324] ms
+19-Jul-2018 13:59:35.794 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/ROOT]
+19-Jul-2018 13:59:36.209 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/ROOT] has finished in [415] ms
+19-Jul-2018 13:59:36.212 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/manager]
+19-Jul-2018 13:59:36.520 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/declan/Documents/School/12th Grade/APCS/Summer Work/04_BankAccount/Banclan/apache-tomcat-9.0.10/webapps/manager] has finished in [299] ms
+19-Jul-2018 13:59:36.543 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Jul-2018 13:59:36.612 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Jul-2018 13:59:36.686 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4968 ms

@@ -5,8 +5,8 @@ public class BankAccount {
 	public double balance;
 	public double interestRate;
 	public long interestPeriod; // how long before interest is compounded in milliseconds
-	public long startDate;      // in milliseconds since epoch
-	public long lastCompound;   // in milliseconds since epoch
+	public long startDate;      // in seconds since epoch
+	public long lastCompound;   // in seconds since epoch
 
 	public BankAccount(double startBalance, double interestRate, long interestPeriod, long startDate) {
 		this.balance = startBalance;
@@ -17,13 +17,20 @@ public class BankAccount {
 	}
 
 	public void update(long currentDate) {
-		compounds = Math.floor((currentDate - lastCompound) / interestPeriod;
-
+		int compounds = this.compounds(currentDate);
 		if (compounds > 0) {
-			interest = balance * Math.pow(interestRate, compounds);
+			double interest = this.interest(compounds);
 			deposit(interest);
 			lastCompound += interestPeriod * compounds;
 		}
+	}
+
+	public double interest(int compounds) {
+		return balance * Math.pow(interestRate, compounds);
+	}
+
+	public int compounds(long currentDate) {
+		return (int) Math.floor((currentDate - lastCompound) / interestPeriod);
 	}
 
 	public void deposit(double amount) {

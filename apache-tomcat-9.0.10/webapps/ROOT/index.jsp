@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous" />
 
     <title>Banclan | The Declan Bank</title>
   </head>
@@ -16,16 +16,27 @@
     </div>
 
     <div class="container">
-      <form action="." method="GET">
-        Dummy test input: <input type="text" name="foo" /><br>
-        <input type="submit" value="Submit" />
+      <h3>Register for a bank account</h3>
+      <h5>Limited time offer - put in as much money as you want!</h5>
+      <form action="./newaccount.jsp" method="GET">
+        <table>
+          <tr>
+            <td>Initial Balance (dollars)</td>
+            <td><input type="text" name="startBalance" /></td>
+          </tr>
+          <tr>
+            <td>Interest Rate (percent)</td>
+            <td><input type="text" name="interestRate" /></td>
+          </tr>
+          <tr>
+            <td>Interest Period (days)</td>
+            <td><input type="text" name="interestPeriod" /></td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Submit" /></td>
+          </tr>
+        </table>
       </form>
-    </div>
-
-    <hr>
-
-    <div class="container">
-      The last thing put in was: "<%= request.getParameter("foo") %>"
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
